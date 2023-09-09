@@ -2,7 +2,15 @@
 #9/08/2023
 # CTI-110 P1HW2 - Travel Expense
 # Wright, Jacob
-# Budget=3000.00, Destination=California, Transportation=plane, Gas=200,hotel=750, food=320.00
+#3. Ask user to enter budget
+#4. Ask user to enter travel desination
+#5. Ask user for amount they will spend on gas
+#6. Ask user for amount they will spend on accomodation
+#7. Ask user for amount they will spend on food
+#8. Add expenses
+#9. Subract expenses
+#10. Display results
+
 print("What will your budget be for this trip?") 
 # budget is 3000
 budget = int(input())
@@ -34,4 +42,3 @@ print("Food:", food)
 print("Total cost of trip to", Destination, "is: $", gas + food + hotel)
 remainingbalance = budget - gas - food - hotel
 print("Your remaining balance: $", remainingbalance)
-
